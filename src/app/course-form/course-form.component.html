@@ -1,0 +1,19 @@
+<p>course-form works!</p>
+<h1> {{title}}</h1>
+
+<ul>
+    <li *ngFor="let course of courses">
+      {{course}}
+    </li>
+</ul>
+<div >
+
+  <h2>{{name}} Details</h2>
+  <div><span>id: </span>{{id}}</div>
+  <div>
+    <label >Hero name: </label>
+    <input id="hero-name" [(ngModel)]="name" placeholder="name">
+   <!--{{name}}--> 
+  </div>
+
+</div>
